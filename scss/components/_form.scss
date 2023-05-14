@@ -1,0 +1,29 @@
+.form {
+	margin-top: 4rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	width: 55%;
+
+	@media screen and (max-width: $medium) {
+		width: 100%;
+		h2 {
+			text-align: center !important;
+		}
+	}
+
+	&__group {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__input {
+		padding: 1rem;
+		outline: none;
+		font-family: var(--font-body);
+	}
+
+	&__btn {
+		align-self: start;
+	}
+}

@@ -1,0 +1,57 @@
+:root {
+	// colors
+	--color-primary: #ff8800;
+	--color-primary-dark: #8c4b00;
+	--color-secondary: #b08670;
+	--color-third: #3c1f24;
+	--color-dark: #1b1b1d;
+	// font family
+	--font-heading: 'Poppins', sans-serif;
+	--font-body: 'Nunito Sans', sans-serif;
+}
+
+// media queries
+$small: 500px;
+$small-alt: 548px;
+$medium-alt: 740px;
+$medium: 970px;
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%; //10px
+	scroll-behavior: smooth;
+}
+
+body {
+	min-height: 100vh;
+	font-family: var(--font-body);
+	font-size: 1.6rem;
+	color: #313131;
+	line-height: 1.7;
+	position: relative;
+}
+
+.container {
+	width: 90vw;
+	margin: 0 auto;
+}
+
+.u-p-top-section {
+	padding-top: 15rem !important;
+	padding-bottom: 10rem;
+}
+.u-p-top-section-contact {
+	padding-top: 5rem !important;
+}
+
+.u-p-top-bottom-section-menu {
+	padding: 15rem 0 !important;
+}

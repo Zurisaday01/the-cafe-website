@@ -1,0 +1,27 @@
+.heading {
+	font-family: var(--font-heading);
+	&--primary {
+		color: #ffff;
+		font-size: 5rem;
+		line-height: 1.2;
+
+		@media screen and (max-width: $small-alt) {
+			font-size: 4rem;
+		}
+	}
+
+	&--secondary {
+		text-transform: uppercase;
+		color: var(--color-primary);
+		letter-spacing: 7px;
+		text-align: center;
+	}
+}
+
+.u-align-start {
+	text-align: start !important;
+}
+
+.m-b-small {
+	margin-bottom: 2rem !important;
+}

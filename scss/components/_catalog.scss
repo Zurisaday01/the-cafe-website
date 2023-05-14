@@ -1,0 +1,14 @@
+.catalog {
+	margin-top: 5rem;
+
+	&__content {
+		max-width: 80vw;
+		margin: 5rem auto 0 auto;
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+		grid-template-rows: repeat(auto-fill, min-content);
+		align-content: center;
+		justify-items: center;
+		gap: 7rem;
+	}
+}

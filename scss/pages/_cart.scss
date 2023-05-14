@@ -1,0 +1,56 @@
+.cart {
+	padding-top: 12rem;
+	padding-bottom: 8rem;
+
+	&__container {
+		display: flex;
+		flex-direction: column;
+
+		h2 {
+			align-self: center;
+		}
+	}
+
+	&__table {
+		border: 1px solid var(--color-dark);
+
+		th,
+		td {
+			padding: 1rem;
+
+			&:not(:first-child) {
+				text-align: center;
+			}
+
+			a {
+				color: currentColor;
+			}
+		}
+
+		tr {
+			border-bottom: 2px solid var(--color-dark);
+		}
+
+		input[type='number'] {
+			outline: none;
+			padding: 1rem;
+		}
+	}
+	&__delete {
+		border: none;
+		background-color: transparent;
+		cursor: pointer;
+		font-size: 2rem;
+	}
+
+	&__total {
+		margin-top: 2rem;
+		align-self: end;
+		font-size: 2rem;
+	}
+
+	&__options {
+		align-self: end;
+		margin-top: 2rem;
+	}
+}
